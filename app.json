@@ -1,0 +1,10 @@
+{
+  "buildpacks": [
+    {
+      "url": "https://github.com/tzcnsrkn/DatingApp/DatingApp.API"
+    },
+    {
+      "url": "heroku/dotnetcore"
+    }
+  ]
+}
