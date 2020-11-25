@@ -40,7 +40,7 @@ namespace DatingApp.API
             // services.AddDbContext<DataContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
             // services.AddDbContext<DataContext>(x => x.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
             services.AddDbContext<DataContext>(x => x.UseNpgsql(
-                @"Host=ec2-52-206-44-27.compute-1.amazonaws.com;Database=dc65dm8pteg7v2;Username=ximhpeyexhvcda;Password=6fb4c86d18c96fff31e0a347321544191849f80c11724e6a4993e2e9083a986e?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory")
+                @"Host=ec2-52-206-44-27.compute-1.amazonaws.com;Database=dc65dm8pteg7v2;Username=ximhpeyexhvcda;Password=6fb4c86d18c96fff31e0a347321544191849f80c11724e6a4993e2e9083a986e")
                 );
                             
             services.AddControllers().AddNewtonsoftJson(opt => {
